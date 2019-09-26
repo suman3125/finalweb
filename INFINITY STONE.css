@@ -3,7 +3,7 @@
     padding:0;
 }
 body{
-    background-image: url(images/MARVEL3.jpg);
+    background-image: url(images/MARV.jpg);
     background-size: cover;
 }
 h2 {
@@ -48,7 +48,7 @@ nav ul li:hover ul {
 div p {
     display: block;
     font-family:arial;
-    color:WHITE;
+    color:black;
     text-align: left;
     font-size:18px;
     padding:0px 5px; 
