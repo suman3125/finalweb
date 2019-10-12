@@ -12,39 +12,55 @@ h2 {
     padding: 0px 5px;
 }
 
-nav {
-    width: 100%;
-    height: 78px;
-    background-color:#fff;
+.topmenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
 }
-nav ul{
+
+.topmenu li{
     float: left;
 }
-nav ul li {
-    float: left;
-    list-style: none;
-    position: relative;
-}
-nav ul li a {
-    display: block;
-    font-family:arial;
-    color:black;
-    font-size:10px;
-    padding:0px 5px; 
-    font-weight: bold;
+
+.topmenu li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px;
     text-decoration: none;
 }
 
-nav ul li ul{
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fff;
-    padding: 0px 5px;
-    border-radius: 0px 0px 0px 0px;
-}
-nav ul li:hover ul {
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
-}
+    text-align: left;
+  }
+
 div p {
     display: block;
     font-family:arial;
@@ -55,15 +71,6 @@ div p {
     font-weight: bold;
     text-decoration: none;
 }
-nav ul li ul li{
-    width: 180px;
-    border-radius: 4px;
-}
-nav ul li ul li a {
-    padding: 8px 14px;
-}
-nav ul li ul li a:hover {
-    background-color: red;
 
 }
 .container{
