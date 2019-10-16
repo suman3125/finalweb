@@ -38,62 +38,36 @@ h2 {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    
 }
 
-@media only screen and (max-width : 640px) {
-    header {
-        position: absolute;
-        box-shadow: 0 0 5px #000;
-    }
-    ul li {
-        text-align: center;
-        width: 100%;
-        padding: 5px 0;
-        margin: 0;
-        float: none;
-    }
-    .topmenu {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .topmenu .dropdown {
-        padding: 36px;
-        margin: 57px 10px 53px 49px;
-        background: #fff;
-        border: 1px solid #444;
-        right: 0px;
-        -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
-        -moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.75);
-        box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.75);
-        background: #eee;
-        height: auto;
-        position: relative;
-        top: 10px;
-        transition: top 0.5s ease-in-out;
-    }
 
-    .topmenu input#toggle {
-        display: none;
-    }
+  
+  .topmenu .icon {
+    display: none;
+  }
 
-    .topmenu input#toggle + label {
-        display: block;
-        width: 100%;
-        height: 87px;
-        background:url(menu.png) center right no-repeat  #fff;
-        position: absolute;
-        right: 0;
-        top: auto;
-        cursor: pointer;
-        border-bottom: 1px solid #000;
-        z-index: 10;
+@media screen and (max-width: 600px) {
+    .topmenu a:not(:first-child) {display: none;}
+    .topmenu a.icon {
+      float: right;
+      display: block;
     }
-
-    input#toggle:checked ~ .dropdown {
-        top: -400px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topmenu.responsive {position: relative;}
+    .topmenu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
     }
-}
+    .topmenu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 
 li a, .dropbtn {
     display: block;
