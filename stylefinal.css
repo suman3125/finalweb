@@ -17,7 +17,7 @@ body{
 h2 {
     font-size: 30px;
     color:red;
-    padding: 0px 5px;
+    padding: 15px;
 }
 
 .topmenu{
@@ -94,14 +94,33 @@ div p {
     color:black;
     text-align: left;
     font-size:18px;
-    padding:0px 5px; 
-    font-weight: bold;
+    padding:15px; 
+    font-weight: normal;
     text-decoration: none;
+    text-align: justify;
 }
 
+h1{
+    display: block;
+    font-family:arial;
+    color: red;
+    text-align: left;
+    font-size:22px;
+    padding:15px; 
+    font-weight: bold;
+    text-decoration: none;
+    text-align: justify;
+}
 h3{
-    font-size: 20px;
-    font-style: italic;
+    display: block;
+    font-family:arial;
+    color:black;
+    text-align: left;
+    font-size:18px;
+    padding:15px; 
+    font-weight: normal;
+    text-decoration: none;
+    text-align: justify;
 }
 
 .container{
@@ -129,9 +148,10 @@ showcase h3{
     font-family:arial;
 }
 img{
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
     border-block-width: 10%;
+    padding: 15px;
 }
 
 iframe{
@@ -186,8 +206,3 @@ h4{
     margin-left: 45%;
 }
 
-showcase p{
-    font-size:25px;
-    color:#fff;
-    margin: 4%;
-}
