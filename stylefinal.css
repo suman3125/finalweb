@@ -99,7 +99,16 @@ div p {
     text-decoration: none;
     text-align: justify;
 }
-
+form{
+    padding-left:15px;
+    font-size: 20px;
+}
+fieldset{
+    padding:10px;
+}
+label{
+    padding: 50px;
+}
 h1{
     display: block;
     font-family:arial;
@@ -129,16 +138,6 @@ h3{
     overflow: hidden;
     margin-top: 1%;
 }   
-showcase h1{
-    color:#fff;
-    font-family:cursive;
-    text-align: center;
-}
-showcase h3{
-    color: #fff;
-    text-align: center;
-    letter-spacing: 2px;
-}
 
 .category{
     color:#fff;
@@ -190,19 +189,15 @@ iframe{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
-.snack, .grill{
-        padding-left: Irem;
-}
-h4{
-    font-size: 2rem; /*lrem=16 */
-    margin: 3%;
-    color:#fff;
-}
-.btn{
-    background-color: gold;
-    padding: Irem;
-    border: none;
-    border-radius: 8px;
-    margin-left: 45%;
-}
+  footer{
+      padding-top: 30px;
+      font-size: 8px;
+      font-style: italic;
+  }
 
+  fieldset{
+      max-width: 75%;
+  }
+  
+  
+  
