@@ -39,6 +39,27 @@ h2 {
     padding: 16px;
     text-decoration: none;
 }
+@media screen and (max-width: 600px) {
+    .topmenu a:not(:first-child) {display: none;}
+    .topmenu a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topmenu.responsive {position: relative;}
+    .topmenu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topmenu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 
 li a, .dropbtn {
     display: block;
