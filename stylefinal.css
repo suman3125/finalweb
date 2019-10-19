@@ -2,9 +2,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-* {
-	font-family: 'Righteous', cursive;
-}
 .nav-bar {
   height: 70px;
   background: #262626;
@@ -55,7 +52,7 @@ nav ul li a:visited {
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
-  background: #2ab1ce;
+  background: red;
   color: #ffffff;
 }
 nav ul li a:not(:only-child):after,
@@ -74,6 +71,7 @@ nav ul li ul li a {
 .nav-dropdown {
   position: absolute;
   display: none;
+  width: 250px;
   z-index: 1;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
@@ -278,4 +276,9 @@ footer{
 
 fieldset{
     max-width: 75%;
+}
+p
+{
+  font-size: 20px;
+  
 }
