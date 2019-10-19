@@ -1,6 +1,11 @@
+html{
+  padding: 50px;
+  background-color: gray;
+}
 body {
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  background-color: honeydew;
 }
 .nav-bar {
   height: 70px;
@@ -280,5 +285,5 @@ fieldset{
 p
 {
   font-size: 20px;
-  
+
 }
