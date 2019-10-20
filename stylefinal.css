@@ -1,11 +1,7 @@
-html{
-  padding: 50px;
-  background-color: gray;
-}
+
 body {
 	margin: 0;
   padding: 0;
-  background-color: honeydew;
 }
 .nav-bar {
   height: 70px;
@@ -197,7 +193,7 @@ h1{
   display: block;
   font-family:arial;
   color: red;
-  text-align: left;
+  text-align: justify;;
   font-size:22px;
   padding:15px; 
   font-weight: bold;
@@ -205,6 +201,30 @@ h1{
   text-align: justify;
 }
 h3{
+  display: block;
+  font-family:arial;
+  color:black;
+  text-align: left;
+  font-size:18px;
+  padding:15px; 
+  font-weight: normal;
+  text-decoration: none;
+  text-align: justify;
+}
+
+h2{
+  display: block;
+  font-family:arial;
+  color: red;
+  text-align: left;
+  font-size:18px;
+  padding:15px; 
+  font-weight: normal;
+  text-decoration: none;
+  text-align: justify;
+}
+
+p{
   display: block;
   font-family:arial;
   color:black;
