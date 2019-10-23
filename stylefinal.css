@@ -288,7 +288,7 @@ p
 div#envelope{
   width: 55%;
   margin: 10px 30% 10px 25%;
-  padding:10px 10px;
+  padding:10px 15% 10px 10px;
   border: 2px solid gray;
   border-radius:10px;
   }
