@@ -1,7 +1,12 @@
+html{
+  padding: 2% 10%;
+  background-color: gray;
+}
 
 body {
 	margin: 0;
-  padding: 0;
+  padding: 5% 0%;
+  background-color: honeydew;
 }
 .nav-bar {
   height: 70px;
@@ -174,7 +179,7 @@ div p {
   color:black;
   text-align: left;
   font-size:18px;
-  padding:15px; 
+  padding:0% 7%; 
   font-weight: normal;
   text-decoration: none;
   text-align: justify;
@@ -206,7 +211,7 @@ h3{
   color:black;
   text-align: left;
   font-size:18px;
-  padding:15px; 
+  padding:0% 7%; 
   font-weight: normal;
   text-decoration: none;
   text-align: justify;
@@ -217,8 +222,8 @@ h2{
   font-family:arial;
   color: red;
   text-align: left;
-  font-size:18px;
-  padding:15px; 
+  font-size:22px;
+  padding:0% 7%; 
   font-weight: normal;
   text-decoration: none;
   text-align: justify;
@@ -230,7 +235,7 @@ p{
   color:black;
   text-align: left;
   font-size:18px;
-  padding:15px; 
+  padding:0% 7%; 
   font-weight: normal;
   text-decoration: none;
   text-align: justify;
@@ -254,13 +259,13 @@ img{
   max-width: 90%;
   height: auto;
   border-block-width: 10%;
-  padding: 15px;
+  padding: 0% 5%;
 }
 
 iframe{
-  width: 95%;
+  width: 90%;
   height: 512px;
-  padding: 15px;
+  padding: 0% 5%;
   
 }
 
@@ -283,7 +288,7 @@ p
 div#envelope{
   width: 55%;
   margin: 10px 30% 10px 25%;
-  padding:10px;
+  padding:10px 10px;
   border: 2px solid gray;
   border-radius:10px;
   }
