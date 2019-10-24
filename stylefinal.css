@@ -286,15 +286,16 @@ p
 }
 
 div#envelope{
-  width: 55%;
+  width: 50%;
   margin: 10px 30% 10px 25%;
   padding:10px 10% 10px 10px;
   border: 2px solid gray;
   border-radius:10px;
   }
   form{
-  width:70%;
+  width:90%;
   margin:4% 15%;
+  padding:10px 10% 10px 10px;
   }
 
   input[type=text]{
